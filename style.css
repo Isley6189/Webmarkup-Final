@@ -14,11 +14,36 @@ img{
 	margin: 5px;
 }
 #box{
-	bottom: 0px;
-	right: 0px;
-	position: fixed;
-	background-color: lightgrey;
-	width: 200px;
-	height: 200px;
-	border: 1px solid;
+ position: fixed;
+  bottom: ..px;
+  right: ..px;
+  background-color: #FFF;
+  color: #FA0;
+  opacity: 50%;
+  width: 33%;
+  height: ..px;
+  z-index: 9999;
+  text-align: center;
+}
+ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	background-color:#444444;
+}
+li a{
+	float: left;
+	display: block;
+	color: white;
+	padding: 10px 15px;
+	text-align: center ;
+	text-decoration: none;
+	border-right: 1px solid black;
+	min-width: 60px;
+
+}
+
+li a:hover{
+	background-color: #222222;
 }

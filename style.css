@@ -8,6 +8,7 @@ html{
 article{
 	border: 5px solid;
 	width: 500px;
+	overflow: hidden;
 }
 img{
 	float: right;
@@ -46,4 +47,14 @@ li a{
 
 li a:hover{
 	background-color: #222222;
+}
+h3{
+	position: Fixed;
+	top: 125px;
+	right: 20px;
+}
+#routes{
+	position: Fixed;
+	top: 150px;
+	right: 20px;
 }
